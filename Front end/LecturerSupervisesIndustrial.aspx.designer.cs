@@ -11,7 +11,7 @@ namespace MS3
 {
 
 
-    public partial class TempLol
+    public partial class LecturerSupervisesIndustrial
     {
 
         /// <summary>
@@ -24,12 +24,30 @@ namespace MS3
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// userInfo control.
+        /// Label19 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table userInfo;
+        protected global::System.Web.UI.WebControls.Label Label19;
+
+        /// <summary>
+        /// SIPROJ control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SIPROJ;
+
+        /// <summary>
+        /// SIBUT control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SIBUT;
     }
 }

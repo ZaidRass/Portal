@@ -22,49 +22,15 @@
             <asp:Button ID="loginButton" runat="server" Text="Login" OnClick ="Login" />
             <br />
             <br />
+            Or Register as a:
+            <asp:Button ID="studentReg" runat="server" Text="Student" OnClick="studentReg_Click" />
+            <asp:Button ID="lecReg" runat="server" Text="Lecturer" OnClick="lecReg_Click" />
+            <asp:Button ID="TAReg" runat="server" Text="Teaching Assistant" OnClick="TAReg_Click" />
+            <asp:Button ID="comReg" runat="server" Text="Company" OnClick="comReg_Click" />
+            <asp:Button ID="EEReg" runat="server" Text="External Examiner" OnClick="EEReg_Click" />
+            
+            <br />
         </div>
-        <div>
-            Or register here:<br />
-            <asp:DropDownList ID="userType" runat="server">
-                <asp:ListItem>Students</asp:ListItem>
-                <asp:ListItem>Lecturers</asp:ListItem>
-                <asp:ListItem>External Examiners</asp:ListItem>
-                <asp:ListItem>Teaching Assistants</asp:ListItem>
-            </asp:DropDownList>
-            <br />
-            Email:<br />
-            <asp:TextBox ID="regEmail" runat="server"></asp:TextBox>
-            <br />
-            Username:<br />
-            <asp:TextBox ID="regUsername" runat="server"></asp:TextBox>
-            <br />
-            First Name:<br />
-            <asp:TextBox ID="firstName" runat="server"></asp:TextBox>
-            <br />
-            Last Name:<br />
-            <asp:TextBox ID="lastName" runat="server"></asp:TextBox>
-            <br />
-            Phone Number:<br />
-            <asp:TextBox ID="phoneNum" runat="server"></asp:TextBox>
-            <br />
-            Major Code:<br />
-            <asp:TextBox ID="majorCode" runat="server"></asp:TextBox>
-            <br />
-            Birth Date:<br />
-            <asp:Calendar ID="birthDate" runat="server"></asp:Calendar>
-            Address:<br />
-            <asp:TextBox ID="address" runat="server"></asp:TextBox>
-            <br />
-            Semester:<br />
-            <asp:TextBox ID="semester" runat="server"></asp:TextBox>
-            <br />
-            GPA:<br />
-            <asp:TextBox ID="gpa" runat="server"></asp:TextBox>
-            <br />
-            <br />
-            <asp:Button ID="registerButton" runat="server" Text="Register Now!" OnClick ="Register"/>
-            <br />
-            </div>
     </form>
 </body>
 </html>

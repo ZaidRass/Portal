@@ -67,11 +67,261 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Company.aspx" />
+    <Content Include="CompanyAddEmployee.aspx" />
+    <Content Include="CompanyAssignsemployees.aspx" />
+    <Content Include="CompanyCreateProject.aspx" />
+    <Content Include="CompanyGradeDefense.aspx" />
+    <Content Include="CompanyGradeProgressReport.aspx" />
+    <Content Include="CompanyGradeThesis.aspx" />
+    <Content Include="CoordinatorPortal.aspx" />
+    <Content Include="EmployeeRegistration.aspx" />
+    <Content Include="Employee.aspx" />
+    <Content Include="EmployeeCreateProgressReport.aspx" />
+    <Content Include="EmployeeGradeDefense.aspx" />
+    <Content Include="EmployeeGradeThesis.aspx" />
+    <Content Include="ExternalExaminerPortal.aspx" />
+    <Content Include="CompanyRegistration.aspx" />
+    <Content Include="Lecturer.aspx" />
+    <Content Include="LecturerAddsToDoList.aspx" />
+    <Content Include="LecturerCreatesMeeting.aspx" />
+    <Content Include="LecturerCreatesProgressReport.aspx" />
+    <Content Include="LecturerCreatesProject.aspx" />
+    <Content Include="LecturerGradeDefense.aspx" />
+    <Content Include="LecturerGradesProgressReport.aspx" />
+    <Content Include="LecturerGradeThesis.aspx" />
+    <Content Include="LecturerProfile.aspx" />
+    <Content Include="LecturerRecommendsEE.aspx" />
+    <Content Include="LecturerSpecifiesThesis.aspx" />
+    <Content Include="LecturerSupervisesIndustrial.aspx" />
+    <Content Include="LecturerViewExternalExaminer.aspx" />
+    <Content Include="LecturerViewMeetings.aspx" />
+    <Content Include="Procedures.sql" />
     <Content Include="RegistrationPage.aspx" />
-    <Content Include="ProfileView.aspx" />
+    <Content Include="StudentAddTODO.aspx" />
+    <Content Include="StudentBookMeeting.aspx" />
+    <Content Include="StudentMakesPreferences.aspx" />
+    <Content Include="StudentRegistration.aspx" />
+    <Content Include="StudentSubmitThesis.aspx" />
+    <Content Include="StudentUpdateDefense.aspx" />
+    <Content Include="StudentView.aspx" />
+    <Content Include="StudentViewBachelorGrade.aspx" />
+    <Content Include="StudentViewBookedMeetings.aspx" />
+    <Content Include="StudentViewDefense.aspx" />
+    <Content Include="StudentViewFreeMeetings.aspx" />
+    <Content Include="StudentViewProgressReport.aspx" />
+    <Content Include="StudentViewThesis.aspx" />
+    <Content Include="TableCreation.sql" />
+    <Content Include="LecturerRegistration.aspx" />
+    <Content Include="ExternalExaminerRegistration.aspx" />
+    <Content Include="TARegistration.aspx" />
+    <Content Include="TeachingAssistantPortal.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company.aspx.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Company.aspx.designer.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyAddEmployee.aspx.cs">
+      <DependentUpon>CompanyAddEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyAddEmployee.aspx.designer.cs">
+      <DependentUpon>CompanyAddEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyAssignsemployees.aspx.cs">
+      <DependentUpon>CompanyAssignsemployees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyAssignsemployees.aspx.designer.cs">
+      <DependentUpon>CompanyAssignsemployees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyCreateProject.aspx.cs">
+      <DependentUpon>CompanyCreateProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyCreateProject.aspx.designer.cs">
+      <DependentUpon>CompanyCreateProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyGradeDefense.aspx.cs">
+      <DependentUpon>CompanyGradeDefense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyGradeDefense.aspx.designer.cs">
+      <DependentUpon>CompanyGradeDefense.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyGradeProgressReport.aspx.cs">
+      <DependentUpon>CompanyGradeProgressReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyGradeProgressReport.aspx.designer.cs">
+      <DependentUpon>CompanyGradeProgressReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyGradeThesis.aspx.cs">
+      <DependentUpon>CompanyGradeThesis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyGradeThesis.aspx.designer.cs">
+      <DependentUpon>CompanyGradeThesis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoordinatorPortal.aspx.cs">
+      <DependentUpon>CoordinatorPortal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoordinatorPortal.aspx.designer.cs">
+      <DependentUpon>CoordinatorPortal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeRegistration.aspx.cs">
+      <DependentUpon>EmployeeRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeRegistration.aspx.designer.cs">
+      <DependentUpon>EmployeeRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.aspx.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee.aspx.designer.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeCreateProgressReport.aspx.cs">
+      <DependentUpon>EmployeeCreateProgressReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeCreateProgressReport.aspx.designer.cs">
+      <DependentUpon>EmployeeCreateProgressReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeGradeDefense.aspx.cs">
+      <DependentUpon>EmployeeGradeDefense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeGradeDefense.aspx.designer.cs">
+      <DependentUpon>EmployeeGradeDefense.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeGradeThesis.aspx.cs">
+      <DependentUpon>EmployeeGradeThesis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeGradeThesis.aspx.designer.cs">
+      <DependentUpon>EmployeeGradeThesis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExternalExaminerPortal.aspx.cs">
+      <DependentUpon>ExternalExaminerPortal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExternalExaminerPortal.aspx.designer.cs">
+      <DependentUpon>ExternalExaminerPortal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyRegistration.aspx.cs">
+      <DependentUpon>CompanyRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyRegistration.aspx.designer.cs">
+      <DependentUpon>CompanyRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lecturer.aspx.cs">
+      <DependentUpon>Lecturer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lecturer.aspx.designer.cs">
+      <DependentUpon>Lecturer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerAddsToDoList.aspx.cs">
+      <DependentUpon>LecturerAddsToDoList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerAddsToDoList.aspx.designer.cs">
+      <DependentUpon>LecturerAddsToDoList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerCreatesMeeting.aspx.cs">
+      <DependentUpon>LecturerCreatesMeeting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerCreatesMeeting.aspx.designer.cs">
+      <DependentUpon>LecturerCreatesMeeting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerCreatesProgressReport.aspx.cs">
+      <DependentUpon>LecturerCreatesProgressReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerCreatesProgressReport.aspx.designer.cs">
+      <DependentUpon>LecturerCreatesProgressReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerCreatesProject.aspx.cs">
+      <DependentUpon>LecturerCreatesProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerCreatesProject.aspx.designer.cs">
+      <DependentUpon>LecturerCreatesProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerGradeDefense.aspx.cs">
+      <DependentUpon>LecturerGradeDefense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerGradeDefense.aspx.designer.cs">
+      <DependentUpon>LecturerGradeDefense.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerGradesProgressReport.aspx.cs">
+      <DependentUpon>LecturerGradesProgressReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerGradesProgressReport.aspx.designer.cs">
+      <DependentUpon>LecturerGradesProgressReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerGradeThesis.aspx.cs">
+      <DependentUpon>LecturerGradeThesis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerGradeThesis.aspx.designer.cs">
+      <DependentUpon>LecturerGradeThesis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerProfile.aspx.cs">
+      <DependentUpon>LecturerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerProfile.aspx.designer.cs">
+      <DependentUpon>LecturerProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerRecommendsEE.aspx.cs">
+      <DependentUpon>LecturerRecommendsEE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerRecommendsEE.aspx.designer.cs">
+      <DependentUpon>LecturerRecommendsEE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerSpecifiesThesis.aspx.cs">
+      <DependentUpon>LecturerSpecifiesThesis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerSpecifiesThesis.aspx.designer.cs">
+      <DependentUpon>LecturerSpecifiesThesis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerSupervisesIndustrial.aspx.cs">
+      <DependentUpon>LecturerSupervisesIndustrial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerSupervisesIndustrial.aspx.designer.cs">
+      <DependentUpon>LecturerSupervisesIndustrial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerViewExternalExaminer.aspx.cs">
+      <DependentUpon>LecturerViewExternalExaminer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerViewExternalExaminer.aspx.designer.cs">
+      <DependentUpon>LecturerViewExternalExaminer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerViewMeetings.aspx.cs">
+      <DependentUpon>LecturerViewMeetings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerViewMeetings.aspx.designer.cs">
+      <DependentUpon>LecturerViewMeetings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrationPage.aspx.cs">
       <DependentUpon>RegistrationPage.aspx</DependentUpon>
@@ -80,12 +330,124 @@
     <Compile Include="RegistrationPage.aspx.designer.cs">
       <DependentUpon>RegistrationPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ProfileView.aspx.cs">
-      <DependentUpon>ProfileView.aspx</DependentUpon>
+    <Compile Include="StudentAddTODO.aspx.cs">
+      <DependentUpon>StudentAddTODO.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProfileView.aspx.designer.cs">
-      <DependentUpon>ProfileView.aspx</DependentUpon>
+    <Compile Include="StudentAddTODO.aspx.designer.cs">
+      <DependentUpon>StudentAddTODO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentBookMeeting.aspx.cs">
+      <DependentUpon>StudentBookMeeting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentBookMeeting.aspx.designer.cs">
+      <DependentUpon>StudentBookMeeting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentMakesPreferences.aspx.cs">
+      <DependentUpon>StudentMakesPreferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentMakesPreferences.aspx.designer.cs">
+      <DependentUpon>StudentMakesPreferences.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentRegistration.aspx.cs">
+      <DependentUpon>StudentRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentRegistration.aspx.designer.cs">
+      <DependentUpon>StudentRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSubmitThesis.aspx.cs">
+      <DependentUpon>StudentSubmitThesis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentSubmitThesis.aspx.designer.cs">
+      <DependentUpon>StudentSubmitThesis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentUpdateDefense.aspx.cs">
+      <DependentUpon>StudentUpdateDefense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentUpdateDefense.aspx.designer.cs">
+      <DependentUpon>StudentUpdateDefense.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentView.aspx.cs">
+      <DependentUpon>StudentView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentView.aspx.designer.cs">
+      <DependentUpon>StudentView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentViewBachelorGrade.aspx.cs">
+      <DependentUpon>StudentViewBachelorGrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentViewBachelorGrade.aspx.designer.cs">
+      <DependentUpon>StudentViewBachelorGrade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentViewBookedMeetings.aspx.cs">
+      <DependentUpon>StudentViewBookedMeetings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentViewBookedMeetings.aspx.designer.cs">
+      <DependentUpon>StudentViewBookedMeetings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentViewDefense.aspx.cs">
+      <DependentUpon>StudentViewDefense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentViewDefense.aspx.designer.cs">
+      <DependentUpon>StudentViewDefense.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentViewFreeMeetings.aspx.cs">
+      <DependentUpon>StudentViewFreeMeetings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentViewFreeMeetings.aspx.designer.cs">
+      <DependentUpon>StudentViewFreeMeetings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentViewProgressReport.aspx.cs">
+      <DependentUpon>StudentViewProgressReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentViewProgressReport.aspx.designer.cs">
+      <DependentUpon>StudentViewProgressReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentViewThesis.aspx.cs">
+      <DependentUpon>StudentViewThesis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentViewThesis.aspx.designer.cs">
+      <DependentUpon>StudentViewThesis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerRegistration.aspx.cs">
+      <DependentUpon>LecturerRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturerRegistration.aspx.designer.cs">
+      <DependentUpon>LecturerRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExternalExaminerRegistration.aspx.cs">
+      <DependentUpon>ExternalExaminerRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExternalExaminerRegistration.aspx.designer.cs">
+      <DependentUpon>ExternalExaminerRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TARegistration.aspx.cs">
+      <DependentUpon>TARegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TARegistration.aspx.designer.cs">
+      <DependentUpon>TARegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingAssistantPortal.aspx.cs">
+      <DependentUpon>TeachingAssistantPortal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeachingAssistantPortal.aspx.designer.cs">
+      <DependentUpon>TeachingAssistantPortal.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
